@@ -35,7 +35,7 @@ CREATE TABLE tbl_vendedores (
     FOREIGN KEY (placa_do_carro) REFERENCES tbl_carros (placa_do_carro) ON DELETE CASCADE
 );
 
-INSERT INTO tbl_vendedores (codigo_do_vendedor, nome, placa_do_carro, city, estado, comissao) VALUES
+INSERT INTO tbl_vendedores (codigo_do_vendedor, nome, placa_do_carro, cidade, estado, comissao) VALUES
   (1, 'Juca da Silva', 'ABC1234', 'Pelotas', 'RS', 3.50),
   (3, 'Antonio Viera', 'JKG5678', 'Dois Vizinhos', 'PR', 5.00),
   (44, 'Julieta da SIlva', NULL, 'Verê', 'PR', 5.00),
